@@ -85,3 +85,14 @@ console.log(arr4);
 
 // join
 console.log(arr3.join(' - '));
+
+// at method - find last el of the array
+
+const arr5 = [1, 4, 6, 7, 8];
+
+console.log(arr5[2] === arr5.at(2)); //true
+
+console.log(arr5.at(-1)); //8
+
+const str = 'abcdefgh';
+console.log(str.at(-1)); //h
