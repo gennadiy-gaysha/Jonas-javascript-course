@@ -74,3 +74,14 @@ const currencies = new Map([
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
+// concat method
+const arr = ['a', 'b', 'c'];
+const arr2 = ['d', 'e', 'f', 'g'];
+
+const arr3 = arr2.concat(arr);
+const arr4 = [...arr2, ...arr];
+console.log(arr3);
+console.log(arr4);
+
+// join
+console.log(arr3.join(' - '));
